@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Robot Humanoide - Aplicação gráfica com controle de braços via MCP
+Humanoid Robot - A Python application that simulates a humanoid robot controlled by an MCP service to control its arms.
 """
 
 import tkinter as tk

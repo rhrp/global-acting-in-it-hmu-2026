@@ -1,6 +1,6 @@
-# 🤖 Robot Humanoide — MCP Controller
+# 🤖 Humanoid Robot - Graphical application with arm control via MCP.
 
-Aplicação Python que apresenta graficamente um robô humanoide e disponibiliza um servidor MCP para controlar os seus braços.
+A Python application that simulates a humanoid robot controlled by an MCP service to control its arms.
 
 ## Basic prompt
 You are Talos, a Robot that can move your arm using the connector MyRobot
