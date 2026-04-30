@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "MeuIOTBI": {
+      "command": "bash",
+      "args": [
+        "-c",
+        "npx -y mcp-remote https://api.iotbi.eu/mcp --header \"Authorization: Bearer 40dfc55dd061e40e19f5a5f1a5a027c70608b88a1f6e24f5a85ac09125ec739b\""
+      ]
+    },
+    "MyRobot": {
+      "command": "bash",
+      "args": [
+        "-c",
+        "npx -y mcp-remote http://172.24.128.1:8000/mcp  --allow-http"
+      ]
+    }
+  },
+  "preferences": {
+    "coworkScheduledTasksEnabled": false,
+    "ccdScheduledTasksEnabled": true,
+    "sidebarMode": "chat",
+    "coworkWebSearchEnabled": true
+  }
+}
